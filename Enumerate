@@ -1,0 +1,7 @@
+nikto -h url
+
+sudo nmap -sS -sV --script=default,vuln -p- -T5~ 192.168.1.222
+
+gobuster dir -u http://192.168.1.122/site/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  
+
+
