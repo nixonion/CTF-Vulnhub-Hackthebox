@@ -4,4 +4,4 @@ sudo nmap -sS -sV --script=default,vuln -p- -T5~ 192.168.1.222
 
 gobuster dir -u http://192.168.1.122/site/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  
 
-
+$ wfuzz --hc 404 -c -w /usr/share/wordlists/wfuzz/general/common.txt http://192.168.1.122/.FUZZ
