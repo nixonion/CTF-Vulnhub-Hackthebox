@@ -16,3 +16,11 @@ nc -nvlp 1234
 python -c 'import pty;pty.spawn("/bin/bash")'
 OR
 python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+
+
+Nmap -sC -sV -A -oN <ip X.x.x.z>
+
+&
+
+Nmap -sC -sV -A -p- 1-65535 -oN <ip X.x.x.z>
