@@ -22,3 +22,7 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 nmap -sC -sV -A <ip X.x.x.z>
 &
 nmap -sC -sV -A -p- 1-65535 <ip X.x.x.z>
+
+
+add dns entry in /etc/hosts
+10.0.0.125 	earth.local terratest.earth.local
