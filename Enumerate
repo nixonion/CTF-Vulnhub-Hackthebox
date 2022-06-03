@@ -27,5 +27,16 @@ nmap -sC -sV -A -p- 1-65535 <ip X.x.x.z>
 add dns entry in /etc/hosts
 10.0.0.125 	earth.local terratest.earth.local
 
-apt -y install seclists
+
  hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt 192.168.120.161 ftp
+ 
+ ftp commands:
+ passive
+ ls 
+ dir
+ get <file>
+ 
+ use file ommand to get file type
+ 
+ wireshark -r backup 
+ to open wireshark file
