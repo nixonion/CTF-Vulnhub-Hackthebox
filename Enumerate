@@ -26,3 +26,6 @@ nmap -sC -sV -A -p- 1-65535 <ip X.x.x.z>
 
 add dns entry in /etc/hosts
 10.0.0.125 	earth.local terratest.earth.local
+
+
+ hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt 192.168.120.161 ftp
