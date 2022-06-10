@@ -44,3 +44,6 @@ add dns entry in /etc/hosts
 wpscan –url [wordpress url]
 wpscan –url [wordpress url]–enumerate u
 wpscan –url [wordpress url]–wordlist [path to wordlist]–username [username to brute force]–threads [number of threads to use]
+
+
+scp les.sh remote_username@192.168.227.36:/tmp
