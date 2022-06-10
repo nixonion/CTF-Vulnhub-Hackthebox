@@ -40,3 +40,7 @@ add dns entry in /etc/hosts
  
  wireshark -r backup 
  to open wireshark file
+
+wpscan –url [wordpress url]
+wpscan –url [wordpress url]–enumerate u
+wpscan –url [wordpress url]–wordlist [path to wordlist]–username [username to brute force]–threads [number of threads to use]
