@@ -48,3 +48,7 @@ wpscan –url [wordpress url]–wordlist [path to wordlist]–username [username
 
 
 scp les.sh remote_username@192.168.227.36:/tmp
+
+
+which wget
+to check if app exists
