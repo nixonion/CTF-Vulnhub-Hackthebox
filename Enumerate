@@ -54,5 +54,8 @@ which wget
 to check if app exists
 
 
-to tun command as another user eg running whoami
+
 sudo -u newuser whoami
+to tun command as another user eg running whoami
+sudo -u newuser bash
+tu summon other users shell and using shell in that
