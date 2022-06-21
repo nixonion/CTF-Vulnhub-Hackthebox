@@ -52,3 +52,7 @@ scp les.sh remote_username@192.168.227.36:/tmp
 
 which wget
 to check if app exists
+
+
+to tun command as another user eg running whoami
+sudo -u newuser whoami
