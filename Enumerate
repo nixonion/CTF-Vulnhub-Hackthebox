@@ -77,3 +77,10 @@ NAME OF THE MACHINE IS VERY IMPORTANT
 
 for exploit suggesting
 https://github.com/DominicBreuker/pspy
+
+
+to add resolution:
+vi /etc/hosts
+127.0.0.1 name 
+127.0.1.1 nmae
+<ip> <sitename>
