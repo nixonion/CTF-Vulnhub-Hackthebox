@@ -1,3 +1,6 @@
+add seclists wordlists: https://github.com/danielmiessler/SecLists
+add gobuster
+add sublime: https://www.sublimetext.com/docs/linux_repositories.html
 nikto -h url
 
 sudo nmap -sS -sV --script=default,vuln -p- -T5~ 192.168.1.222
